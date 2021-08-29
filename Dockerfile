@@ -7,6 +7,8 @@ RUN apk add vim \
 		gcc \
 		libc-dev \
 		docker \
+		fzf \
+		ripgrep \
 		zsh
 
 # .vimrc is in the directory to allow you customize it and rebuild the container,
