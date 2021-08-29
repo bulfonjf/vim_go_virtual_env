@@ -14,7 +14,9 @@ No more need to install Golang on your computer, use docker instead with this de
 * Fully configured Vim for Golang
 
 ## Docker image
-![docker_image](https://hub.docker.com/repository/docker/juanbulfon/vimgo)
+```
+https://hub.docker.com/repository/docker/juanbulfon/vimgo
+```
 
 ## How to use it ?
 
