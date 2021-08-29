@@ -35,3 +35,26 @@ Then run the environment :
 ```
 docker-compose run go
 ```
+
+## Overview
+
+Go binaries are installed in
+
+- /usr/loca/go/bin
+
+To develop apps do:
+- cd /go/src
+- go mod init <app name>
+- vim <file name>.go
+
+To run the app
+- Save the file (:w)
+- :GoRun
+
+To debug the app
+- :GoDebugBreakpoint (add or remove a breakpoint)
+- :GoDebugStart
+- :GoDebugNext | :GoDebugContinue
+
+Documentation
+- ![here](https://github.com/fatih/vim-go)
