@@ -9,7 +9,7 @@ No more need to install Golang on your computer, use docker instead with this de
 * Alpine as Operating System
 * Docker in docker
 * Golang (latest version)
-* Fish shell and Oh-My-Fish
+* Zsh
 * Git
 * Fully configured Vim for Golang
 
@@ -42,7 +42,7 @@ docker-compose run go
 
 Go binaries are installed in
 
-- /usr/loca/go/bin
+- /usr/local/go/bin
 
 To develop apps do:
 - cd /go/src
@@ -56,7 +56,7 @@ To run the app
 To debug the app
 - :GoDebugBreakpoint (add or remove a breakpoint)
 - :GoDebugStart
-- :GoDebugNext | :GoDebugContinue
+- :GoDebugContinue
 
 Documentation
 - ![here](https://github.com/fatih/vim-go)
